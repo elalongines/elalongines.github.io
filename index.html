@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mariela Longines | Data Scientist</title>
+<meta name="description" content="Data Scientist in Lucerne, Switzerland, working across data pipelines, machine learning models, analytics and AI. B permit, no sponsorship needed.">
+<link rel="canonical" href="https://elalongines.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://elalongines.github.io/">
+<meta property="og:title" content="Mariela Longines | Data Scientist">
+<meta property="og:description" content="Data Scientist in Lucerne, Switzerland, working across data pipelines, machine learning models, analytics and AI. B permit, no sponsorship needed.">
+<meta property="og:image" content="https://elalongines.github.io/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; background: #1a1a1a; color: #c9c9c9; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 1.7; }
+.container { max-width: 900px; margin: 0 auto; padding: 80px 24px; background: #1a1a1a; color: #c9c9c9; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 1.7; }
+
+.hero { display: flex; align-items: flex-start; gap: 40px; }
+.profile-photo { width: 144px; height: 144px; flex-shrink: 0; border-radius: 50%; object-fit: cover; display: block; }
+h1 { margin: 0; color: #f2f2f2; font-family: Georgia, serif; font-size: 40px; line-height: 1; letter-spacing: -1px; font-weight: 400; }
+.subtitle { margin: 12px 0 0; color: #c9c9c9; }
+.intro { margin: 18px 0 0; color: #e0e0e0; line-height: 1.8; }
+.hero-meta { margin: 8px 0 0; color: #a3a3a3; font-family: "IBM Plex Mono", "Courier New", monospace; font-size: 14px; line-height: 1.5; }
+.hero-links { margin: 20px 0 0; color: #a3a3a3; font-family: "IBM Plex Mono", "Courier New", monospace; font-size: 14px; line-height: 1.5; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
+.hero-links a { color: #c9c9c9; text-decoration: none; }
+.hero-links a:hover { color: #ffffff; }
+.hero-links .cta { display: inline-flex; align-items: center; min-height: 44px; padding: 0 20px; border-radius: 6px; background: #f2f2f2; color: #1a1a1a; font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 700; text-decoration: none; }
+.hero-links .cta:hover { background: #ffffff; color: #1a1a1a; }
+a:focus-visible { outline: 2px solid #f2f2f2; outline-offset: 3px; }
+
+a { color: #c9c9c9; text-decoration: underline; text-underline-offset: 6px; }
+a:hover { color: #ffffff; }
+strong { color: #f2f2f2; font-weight: 500; }
+span { color: #a3a3a3; }
+
+section { margin-top: 80px; }
+.section-title { display: block; border-bottom: 1px solid #333333; padding-bottom: 12px; margin-bottom: 32px; }
+.section-title h3 { margin: 0; }
+.section-title + .timeline { margin-top: 0; border-top: 0; }
+.section-title + .timeline li:first-child { padding-top: 0; }
+.section-title + .social-links { margin-top: 0; }
+h3 { margin: 0; color: #9a9a9a; font-family: "IBM Plex Mono", "Courier New", monospace; font-size: 14px; font-weight: 400; text-transform: uppercase; letter-spacing: 0.16em; }
+section p { margin-top: 20px; color: #a3a3a3; }
+
+.timeline { list-style: none; padding: 0; margin: 24px 0 0; border-top: 1px solid #2e2e2e; }
+.timeline li { padding: 20px 0; border-bottom: 1px solid #2e2e2e; }
+.timeline li:last-child { border-bottom: none; }
+.row { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
+.row p { margin: 0; }
+.date { flex-shrink: 0; color: #a3a3a3; font-family: "IBM Plex Mono", "Courier New", monospace; font-size: 14px; }
+.description { margin-top: 8px; color: #c9c9c9; font-size: 16px; }
+
+.links-list, .social-links { list-style: none; padding: 0; margin: 16px 0 0; }
+.links-list li { margin-bottom: 0; padding: 16px 0; }
+.links-list li:first-child { padding-top: 0; }
+.links-list li:last-child { padding-bottom: 0; }
+.social-links { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; font-size: 16px; }
+
+.project-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.project-head strong { display: inline; }
+.project-tag { color: #a3a3a3; font-size: 14px; }
+.project-stack { display: block; margin-top: 4px; color: #a3a3a3; font-family: "IBM Plex Mono", "Courier New", monospace; font-size: 14px; }
+.project-row { position: relative; margin-top: 5px; min-height: 176px; }
+.project-row > .hero-meta { display: block; width: 65%; }
+.project-text { width: 65%; color: #c9c9c9; font-size: 16px; line-height: 1.7; }
+.project-img { position: absolute; top: 0; right: 0; width: 30%; aspect-ratio: 12 / 8; padding: 0; margin: 0; border: 1px solid #333333; border-radius: 6px; overflow: hidden; background: #222222; display: flex; align-items: center; justify-content: center; }
+.project-img img { display: block; width: 100%; height: 100%; object-fit: contain; transition: opacity 0.2s ease; }
+.project-img:hover img { opacity: 0.85; }
+.project-head a { color: #a3a3a3; font-size: 14px; text-decoration: none; }
+.project-head a:hover { color: #ffffff; text-decoration: underline; }
+.placeholder { color: #8f8f8f; font-family: "IBM Plex Mono", "Courier New", monospace; font-size: 13px; text-align: center; padding: 0 12px; }
+
+.about-row { display: grid; grid-template-columns: 220px 1fr; gap: 40px; align-items: start; margin-top: 24px; }
+.about-image img { display: block; width: 100%; height: auto; border: 1px solid #333333; border-radius: 6px; }
+.about-text .description { margin-top: 0; }
+.about-text .description + .description { margin-top: 16px; }
+
+footer { margin-top: 96px; padding-top: 24px; border-top: 1px solid #2e2e2e; color: #8f8f8f; font-size: 14px; }
+
+@media (max-width: 900px) {
+  .container { width: min(100% - 40px, 760px); padding: 72px 0; }
+  .hero { gap: 36px; }
+}
+@media (max-width: 640px) {
+  .container { width: min(100% - 32px, 100%); padding: 56px 0; }
+  .hero { flex-direction: column; gap: 28px; }
+  .profile-photo { width: 128px; height: 128px; }
+  section { margin-top: 64px; }
+  .row { flex-direction: column; align-items: flex-start; gap: 4px; }
+  .social-links { grid-template-columns: repeat(2, 1fr); }
+  .project-text { width: 100%; }
+  .project-row > .hero-meta { width: 100%; }
+  .project-row { min-height: 0; }
+  .project-img { position: static; width: 100%; margin-top: 16px; }
+  .about-row { grid-template-columns: 1fr; gap: 24px; }
+}
+@media (max-width: 380px) {
+  .container { width: min(100% - 24px, 100%); }
+  h1 { font-size: 34px; }
+  .social-links { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+
+<section class="hero">
+  <div class="photo-wrapper">
+    <img class="profile-photo" src="profile.jpg" alt="Mariela Longines">
+  </div>
+  <div>
+    <h1>Mariela Longines</h1>
+    <p class="subtitle">Data Scientist · Analytics &amp; AI Systems</p>
+    <p class="intro">I work across the whole data cycle, from pipelines and cloud databases to machine learning models and dashboards.</p>
+    <p class="hero-meta">Lucerne · Switzerland · B permit, no sponsorship needed</p>
+    <p class="hero-links">
+      <a class="cta" href="mailto:mariela.longines@gmail.com">Let's talk</a>
+      <span><a href="https://www.linkedin.com/in/marielalongines/" target="_blank" rel="noopener noreferrer">LinkedIn</a> · <a href="https://github.com/elalongines" target="_blank" rel="noopener noreferrer">GitHub</a></span>
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="section-title"><h3>Personal Projects</h3></div>
+  <ul class="links-list">
+    <li>
+      <div class="project-head"><strong>Internet Speed Across Europe</strong><span class="project-tag">Telecommunications</span><a href="https://public.tableau.com/views/InternetSpeed_16863820157500/Dashboard" target="_blank" rel="noopener noreferrer">Live dashboard</a></div>
+      <span class="project-stack">Tableau · Data Cleaning · Dashboard Design</span>
+      <div class="project-row">
+        <div class="project-text">The original Makeover Monday chart on European internet speeds showed the numbers but explained little. I cleaned the dataset, fixing country names written in different languages and missing codes, and rebuilt it in Tableau as an interactive dashboard with a map, a country ranking, quarterly totals and yearly trends, all filterable by download speed, upload speed or latency.</div>
+        <span class="hero-meta">Speeds roughly doubled from 2019 to 2022 while latency fell by a third · 42 countries</span>
+        <a class="project-img" href="internet-speed-europe.png" target="_blank" rel="noopener noreferrer" aria-label="Open the Internet Speed Across Europe dashboard image"><img src="internet-speed-europe.png" alt="Tableau dashboard of average internet speed across Europe with a map, a country ranking, quarterly totals and yearly trends"></a>
+      </div>
+    </li>
+    <li>
+      <div class="project-head"><strong>Find Your Meal</strong><span class="project-tag">Nutrition</span></div>
+      <span class="project-stack">Python · REST API · MongoDB · MongoDB Atlas · Aggregation Pipelines</span>
+      <div class="project-row">
+        <div class="project-text">Planning meals is hard when people follow different diets. I built a Python pipeline that pulls keto and vegan recipes from a recipe API within its rate limits and loads them into MongoDB, synced with MongoDB Atlas. I designed the document model, cleaned duplicates with aggregation pipelines and built queries for two diet personas: their best matching meals, a shopping list of the most used ingredients and the quickest recipes.</div>
+        <span class="hero-meta">3,920 recipes fetched via API · 2 diet personas</span>
+        <a class="project-img" href="find-your-meal-data-model.png" target="_blank" rel="noopener noreferrer" aria-label="Open the Find Your Meal data model image"><img src="find-your-meal-data-model.png" alt="Data model of the Find Your Meal MongoDB database, with a recipe document linked to tags, ingredients, steps, nutrients and images"></a>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<section>
+  <div class="section-title"><h3>Work Experience</h3></div>
+  <ul class="timeline">
+    <li>
+      <div class="row"><p><strong>Junior Product Manager</strong> <span>· Quantflow AI, St. Gallen</span></p><p class="date">2026</p></div>
+      <p class="description">Designed AI agent workflows and defined requirements for an AI workflow automation tool, ran systematic reliability tests across its agent workflows, and analysed the market and competitors for a compliance software product.</p>
+    </li>
+    <li>
+      <div class="row"><p><strong>Analytics Consultant (Project mandate)</strong> <span>· Brugg Cables, Brugg</span></p><p class="date">2025</p></div>
+      <p class="description">Consolidated salary, bonus, vacation and headcount data from many Excel sources into one Power BI source of truth, cutting the reporting cycle by about 92%. Built executive KPI dashboards with custom DAX measures for personnel costs and workforce metrics, supporting financial controlling and monthly board reviews.</p>
+    </li>
+    <li>
+      <div class="row"><p><strong>Data Analyst Intern</strong> <span>· BestSmile, Zürich</span></p><p class="date">2024 to 2025</p></div>
+      <p class="description">Developed Python forecasting models with about 95% accuracy for revenue planning and built Power BI dashboards on Salesforce data. Presented the findings to finance stakeholders in clear business terms.</p>
+    </li>
+    <li>
+      <div class="row"><p><strong>Data Scientist Intern (Project mandate)</strong> <span>· AlpinaSana, Zürich</span></p><p class="date">2023 to 2024</p></div>
+      <p class="description">Automated clinical nutrition reports in Python for hospital clients, reducing processing time by about 70%, and structured datasets for AI solutions used in hospitals.</p>
+    </li>
+    <li>
+      <div class="row"><p><strong>Social Media Manager</strong> <span>· World Tourism Forum Lucerne</span></p><p class="date">2021 to 2022</p></div>
+      <p class="description">Monitored reach and engagement KPIs and analysed behavioural metrics across digital channels, contributing to 143% growth in digital visibility.</p>
+    </li>
+    <li>
+      <div class="row"><p><strong>Operations and Sales Coordinator</strong> <span>· Lumina Learning, Mexico</span></p><p class="date">2019</p></div>
+      <p class="description">Coordinated pricing, contracts, client onboarding and invoicing for a UK based partner's market setup in Mexico.</p>
+    </li>
+    <li>
+      <div class="row"><p><strong>Business Intelligence Analyst</strong> <span>· ProMéxico, Mexican government trade agency</span></p><p class="date">2018 to 2019</p></div>
+      <p class="description">Built export market studies for Mexican products with international trade data: market size, demand by country, competitors, prices, tariff and non tariff barriers and potential buyers, ending with a recommendation on where to export. Also advised companies on export documentation and logistics.</p>
+    </li>
+    <li>
+      <div class="row"><p><strong>Junior Business Consultant</strong> <span>· Business Incubator, Tecnológico de Monterrey</span></p><p class="date">2014 to 2016</p></div>
+      <p class="description">Developed business plans for micro and small businesses in interdisciplinary teams, covering marketing, logistics and financial planning.</p>
+    </li>
+  </ul>
+</section>
+
+<section>
+  <div class="section-title"><h3>Education</h3></div>
+  <ul class="timeline">
+    <li>
+      <div class="row"><p><strong>MSc in Banking and Finance</strong> <span>· Hochschule Luzern (HSLU)</span></p><p class="date">Since Sep 2026</p></div>
+      <p class="description">In progress</p>
+    </li>
+    <li>
+      <div class="row"><p><strong>MSc in Applied Information and Data Science</strong> <span>· Hochschule Luzern (HSLU)</span></p><p class="date">Sep 2021 to Mar 2025</p></div>
+      <p class="description">Master thesis with Beekeeper: Predictive Risk and Behavioural Analytics<br>Relevant coursework: Machine Learning, Deep Learning, Generative AI, Data Engineering, Big Data in the Cloud</p>
+    </li>
+    <li>
+      <div class="row"><p><strong>BA in International Business</strong> <span>· Tecnológico de Monterrey</span></p><p class="date">Aug 2013 to Dec 2018</p></div>
+      <p class="description">Academic exchanges at Rey Juan Carlos University (Spain) and University of Waterloo (Canada)</p>
+    </li>
+  </ul>
+</section>
+
+<section>
+  <div class="section-title"><h3>Beyond Work</h3></div>
+  <ul class="timeline">
+    <li>
+      <div class="row"><p><strong>Volunteer Data Management Assistant</strong> <span>· United Nations / MYWM</span></p><p class="date">2020 to 2021</p></div>
+      <p class="description">Supported 10 international campaigns on sustainable development and gender equality reaching more than 70,000 people, including Latin America's Act4SDGs Week with the UNSDG Action Campaign.</p>
+    </li>
+    <li>
+      <div class="row"><p><strong>Languages</strong></p></div>
+      <p class="description">Spanish (native) · English (C1) · German (B1, working towards B2)</p>
+    </li>
+  </ul>
+</section>
+
+<section>
+  <div class="section-title"><h3>About</h3></div>
+  <div class="about-row">
+    <div class="about-image"><img src="about.jpg" alt="Mariela at her graduation from Tecnológico de Monterrey, holding her diploma in International Business"></div>
+    <div class="about-text">
+      <p class="description">I'm originally from Mexico and, after studying in Spain and Canada, moved to Switzerland for my Master's in Data Science. I started my career in business consulting, moved into international trade intelligence, and was gradually pulled deeper into the data behind every decision.</p>
+      <p class="description">That's where I like to work today: data pipelines, machine learning models, analytics, and the AI that puts data to work.</p>
+      <p class="description">Outside work I hike, go on long walks, read, paint, play chess and spend time with my loved ones.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title"><h3>Elsewhere</h3></div>
+  <ul class="social-links">
+    <li><a href="mailto:mariela.longines@gmail.com">Email</a></li>
+    <li><a href="https://www.linkedin.com/in/marielalongines/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+    <li><a href="https://github.com/elalongines" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+  </ul>
+</section>
+
+<footer>© 2026 Mariela Longines</footer>
+
+</main>
+</body>
+</html>
