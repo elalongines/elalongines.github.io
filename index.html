@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mariela Longines | Data Scientist</title>
-<meta name="description" content="Data Scientist in Lucerne, Switzerland, working across data pipelines, machine learning models, analytics and AI. B permit, no sponsorship needed.">
+<title>Mariela Longines | Junior Data Scientist</title>
+<meta name="description" content="Junior Data Scientist in Lucerne, Switzerland, working across data pipelines, machine learning models, analytics and AI. B permit, no sponsorship needed.">
 <link rel="canonical" href="https://elalongines.github.io/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://elalongines.github.io/">
-<meta property="og:title" content="Mariela Longines | Data Scientist">
-<meta property="og:description" content="Data Scientist in Lucerne, Switzerland, working across data pipelines, machine learning models, analytics and AI. B permit, no sponsorship needed.">
+<meta property="og:title" content="Mariela Longines | Junior Data Scientist">
+<meta property="og:description" content="Junior Data Scientist in Lucerne, Switzerland, working across data pipelines, machine learning models, analytics and AI. B permit, no sponsorship needed.">
 <meta property="og:image" content="https://elalongines.github.io/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -99,6 +99,20 @@ details[open] summary::before { content: "[−] "; }
 .tags { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; margin: 16px 0 0; padding: 16px 0 0; border-top: 1px solid var(--line); }
 .tags li { padding: 3px 10px; border: 1px solid var(--line-2); border-radius: 2px; color: var(--text-2); font-family: var(--mono); font-size: 12.5px; }
 
+/* competencies */
+.comp { display: grid; grid-template-columns: 240px minmax(0, 1fr); margin: 0; background: var(--panel); border: 1px solid var(--line); border-top: 2px solid var(--amber); border-radius: 4px; }
+.comp dt, .comp dd { margin: 0; padding: 16px 24px; border-bottom: 1px solid var(--line); }
+.comp dt { color: var(--white); font-weight: 600; }
+.comp dd { color: var(--text); }
+.comp dt:last-of-type, .comp dd:last-of-type { border-bottom: none; }
+
+/* currently */
+.now { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.now div { background: var(--panel); border: 1px solid var(--line); border-left: 2px solid var(--amber); border-radius: 4px; padding: 20px 22px; }
+.now h3 { margin: 0 0 8px; color: var(--amber); font-family: var(--mono); font-size: 12.5px; font-weight: 500; letter-spacing: 0.08em; }
+.now p { margin: 0; color: var(--text); }
+.now em { color: var(--white); font-style: normal; }
+
 /* tables */
 .rows { list-style: none; margin: 0; padding: 0; }
 .rows li { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 24px; padding: 18px 0; border-bottom: 1px solid var(--line); }
@@ -124,6 +138,7 @@ footer { margin: 72px 0 0; padding: 20px 0 48px; border-top: 1px solid var(--lin
   .bar-links { display: none; }
   .p-grid { grid-template-columns: 1fr; }
   .story { grid-template-columns: 1fr; gap: 14px; }
+  .now { grid-template-columns: 1fr; gap: 14px; }
 }
 @media (max-width: 600px) {
   .wrap { padding: 0 18px; }
@@ -134,6 +149,9 @@ footer { margin: 72px 0 0; padding: 20px 0 48px; border-top: 1px solid var(--lin
   .project h3 { font-size: 23px; }
   .rows li { grid-template-columns: 1fr; gap: 4px; }
   .sec-head { flex-direction: column; align-items: flex-start; gap: 4px; }
+  .comp { grid-template-columns: 1fr; }
+  .comp dt { padding: 16px 18px 4px; border-bottom: none; }
+  .comp dd { padding: 0 18px 16px; }
   .about { grid-template-columns: 1fr; }
   .about img { max-width: 260px; }
   .kpi b { font-size: 26px; }
@@ -147,6 +165,7 @@ footer { margin: 72px 0 0; padding: 20px 0 48px; border-top: 1px solid var(--lin
     <a class="bar-name" href="#top">MARIELA LONGINES <span>|</span> DATA</a>
     <nav class="bar-links" aria-label="Main">
       <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
       <a href="#experience">Experience</a>
       <a href="#education">Education</a>
       <a href="#about">About</a>
@@ -169,7 +188,7 @@ footer { margin: 72px 0 0; padding: 20px 0 48px; border-top: 1px solid var(--lin
   <img class="photo" src="profile.jpg" alt="Mariela Longines">
   <div>
     <h1>Mariela Longines</h1>
-    <p class="subtitle">Data Scientist · Analytics &amp; AI Systems</p>
+    <p class="subtitle">Junior Data Scientist · Analytics &amp; AI Systems</p>
     <p class="intro">I work across the whole data cycle, from pipelines and cloud databases to machine learning models and dashboards.</p>
     <p class="meta">Lucerne · Switzerland · B permit, no sponsorship needed</p>
     <div class="actions">
@@ -181,7 +200,7 @@ footer { margin: 72px 0 0; padding: 20px 0 48px; border-top: 1px solid var(--lin
 </section>
 
 <section id="projects">
-  <div class="sec-head"><h2>Personal Projects</h2><span class="sec-note">Each starts with a business question</span></div>
+  <div class="sec-head"><h2>Personal Projects</h2><span class="sec-note">Each project starts with a business question</span></div>
 
   <article class="project">
     <div class="p-top">
@@ -249,6 +268,26 @@ footer { margin: 72px 0 0; padding: 20px 0 48px; border-top: 1px solid var(--lin
   </article>
 </section>
 
+<section id="skills">
+  <div class="sec-head"><h2>Core Competencies</h2></div>
+  <dl class="comp">
+    <dt>Reporting &amp; Controlling</dt>
+    <dd>KPI and management reporting, executive dashboards, data consolidation and reconciliation, forecasting</dd>
+    <dt>Risk &amp; Analytics</dt>
+    <dd>Predictive risk modelling, machine learning and deep learning, sentiment and network analysis</dd>
+    <dt>Data Management</dt>
+    <dd>Data quality and validation, documentation, process automation, data pipelines and databases</dd>
+    <dt>Technology</dt>
+    <dd>Python, SQL, R, Excel (advanced), Power BI (Power Query, DAX), Tableau, SAP, Azure, MongoDB</dd>
+    <dt>ESG</dt>
+    <dd>ESG market concepts (Bloomberg certificate)</dd>
+    <dt>Ways of Working</dt>
+    <dd>Requirements definition, Scrum (certified), testing of AI agent workflows, market and competitor research</dd>
+    <dt>Languages</dt>
+    <dd>Spanish (native), English (C1), German (B1, working towards B2)</dd>
+  </dl>
+</section>
+
 <section id="experience">
   <div class="sec-head"><h2>Work Experience</h2></div>
   <ol class="rows">
@@ -276,7 +315,6 @@ footer { margin: 72px 0 0; padding: 20px 0 48px; border-top: 1px solid var(--lin
   <div class="sec-head"><h2>Beyond Work</h2></div>
   <ol class="rows">
     <li><div class="r-date">2020 to 2021</div><div><p class="r-title">Volunteer Data Management Assistant <span>· United Nations / MYWM</span></p><p class="r-desc">Supported 10 international campaigns on sustainable development and gender equality reaching more than 70,000 people, including Latin America's Act4SDGs Week with the UNSDG Action Campaign.</p></div></li>
-    <li><div class="r-date">Languages</div><div><p class="r-desc" style="margin:0">Spanish (native) · English (C1) · German (B1, working towards B2)</p></div></li>
   </ol>
 </section>
 
@@ -289,6 +327,15 @@ footer { margin: 72px 0 0; padding: 20px 0 48px; border-top: 1px solid var(--lin
       <p>That's where I like to work today: data pipelines, machine learning models, analytics, and the AI that puts data to work.</p>
       <p>Outside work I hike, go on long walks, read, paint, play chess and spend time with my loved ones.</p>
     </div>
+  </div>
+</section>
+
+<section id="now">
+  <div class="sec-head"><h2>Currently</h2></div>
+  <div class="now">
+    <div><h3>LEARNING</h3><p>Banking and finance at HSLU, to connect my data work with risk, reporting and investment decisions.</p></div>
+    <div><h3>PRACTISING</h3><p>My German. <em lang="de">Lesen klappt schon gut, beim Sprechen werde ich jeden Tag sicherer.</em></p></div>
+    <div><h3>PLANNING</h3><p>A Power BI project with Swiss health insurance data, the kind of reporting insurers rely on every day.</p></div>
   </div>
 </section>
 
